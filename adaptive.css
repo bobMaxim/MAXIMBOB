@@ -1,0 +1,13 @@
+@media screen and (max-width: 880px) {
+    nav ul li a {
+        color: #d35735;
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:720px) {
+    nav,
+    .auth {
+        display: none;
+    }
+}
+

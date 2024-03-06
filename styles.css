@@ -1,25 +1,35 @@
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: aqua;
-    }
-*
-**::after
-**::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px ;
+    align-items: center;
+    background-color: #E567B1;
+    border-radius: 25px;
+    margin-top: 25px;
 }
-
-a {
-    text-decoration: none;
-}
-
-li {
-    list-style: none;
-}
-
 .container {
     max-width: 1400px;
     padding: 0 100px;
-
+    margin: 0 auto;
+}
+.logo img {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+nav ul {
+    display: flex;
+    gap: 25px;
+}
+nav ul li a {
+    color: #35D3A7;
+    font-size: 18px;
+}
+.auth button {
+    outline: none;
+    border: none;
+    background-color: azure;
+    color: blue;
+    border-radius: 15px;
+    padding: 25px;
 }
