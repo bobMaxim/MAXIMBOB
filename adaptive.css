@@ -3,11 +3,27 @@
         color: #d35735;
         font-size: 8px;
     }
+    .info_text h1 {
+        font-size: 8px;
+    }
+    .info_text p {
+        font-size: 8px;
+    }
+    .info_text a {
+        font-size: 8px;
+    }
 }
 @media screen and (max-width:720px) {
     nav,
     .auth {
         display: none;
     }
+    .info_text h1 {
+        font-size: 28px;
+    } .info_text p {
+        font-size: 28px;
+    }
+    .info_text a {
+        font-size: 28px;
+    }
 }
-
